@@ -2,3 +2,8 @@
   border-left: 1px solid var(--color-border);
   text-align: right;
 }
+
+.train .category {
+  font-weight: bold;
+  font-style: italic;
+}
