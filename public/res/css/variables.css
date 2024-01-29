@@ -3,6 +3,7 @@ html {
   --font-size: 16px;
   --font-size-h1: 48px;
   --color-background: #ffffff;
+  --color-border: #222222;
   --color-text: #000000;
   --gap: 30px;
 }

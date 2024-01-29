@@ -11,3 +11,16 @@ main {
 main > * {
   display: contents;
 }
+
+main > * > * {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+main > * > *:first-child {
+  border-top: 1px solid var(--color-border);
+}
+
+main > * > *:last-child {
+  border-bottom: 1px solid var(--color-border);
+}
