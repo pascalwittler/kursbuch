@@ -3,4 +3,5 @@ body {
   grid-template-rows: auto 1fr;
   grid-template-columns: 100%;
   row-gap: var(--gap);
+  background-color: var(--color-background);
 }
