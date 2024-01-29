@@ -39,3 +39,7 @@ main > * > .destination {
   border-top: 1px solid var(--color-border);
   border-bottom: 3px solid var(--color-border);
 }
+
+main > * > .arrival + .departure {
+  border-top: 1px solid var(--color-border);
+}
