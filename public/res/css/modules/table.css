@@ -1,0 +1,13 @@
+main {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(28, auto);
+  grid-template-columns: auto;
+  grid-auto-columns: 84px;
+  align-content: start;
+  justify-content: start;
+}
+
+main > * {
+  display: contents;
+}
