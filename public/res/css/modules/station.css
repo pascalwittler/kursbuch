@@ -1,3 +1,7 @@
+.stations .part {
+  padding-left: 24px;
+}
+
 .stations .arrival,
 .stations .departure {
   font-weight: bold;
