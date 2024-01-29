@@ -19,3 +19,28 @@
   font-weight: bold;
   font-style: italic;
 }
+
+.train .skipped {
+  position: relative;
+}
+
+.train .skipped::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 30px;
+  width: 1px;
+}
+
+.train-regional .skipped::before {
+  background-color: var(--color-train-regional);
+}
+
+.train-long-distance .skipped::before {
+  background-color: var(--color-train-long-distance);
+}
+
+.train-overnight .skipped::before {
+  background-color: var(--color-train-overnight);
+}
