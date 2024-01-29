@@ -1,3 +1,15 @@
+.train-regional {
+  color: var(--color-train-regional);
+}
+
+.train-long-distance {
+  color: var(--color-train-long-distance);
+}
+
+.train-overnight {
+  color: var(--color-train-overnight);
+}
+
 .train > * {
   border-left: 1px solid var(--color-border);
   text-align: right;

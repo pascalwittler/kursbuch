@@ -5,6 +5,9 @@ html {
   --color-background: #ffffff;
   --color-border: #222222;
   --color-text: #000000;
+  --color-train-regional: #000000;
+  --color-train-long-distance: #ff2e17;
+  --color-train-overnight: #0b369c;
   --color-source-destination-background: #cecfd1;
   --gap: 30px;
 }
