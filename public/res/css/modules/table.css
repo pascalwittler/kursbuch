@@ -24,3 +24,18 @@ main > * > *:first-child {
 main > * > *:last-child {
   border-bottom: 1px solid var(--color-border);
 }
+
+main > * > .source,
+main > * > .destination {
+  background-color: var(--color-source-destination-background);
+}
+
+main > * > .source {
+  border-top: 3px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+main > * > .destination {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 3px solid var(--color-border);
+}
