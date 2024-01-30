@@ -9,5 +9,6 @@ html {
   --color-train-long-distance: #ff2e17;
   --color-train-overnight: #0b369c;
   --color-source-destination-background: #cecfd1;
+  --color-train-highlighted-background: #ececed;
   --gap: 30px;
 }

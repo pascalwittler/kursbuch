@@ -1,3 +1,10 @@
+.train:hover .category,
+.train:hover .number,
+.train:hover .features,
+.train:hover .stop {
+  background-color: var(--color-train-highlighted-background);
+}
+
 .train-regional {
   color: var(--color-train-regional);
 }
